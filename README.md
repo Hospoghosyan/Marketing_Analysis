@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project conducts a thorough analysis of a marketing A/B test dataset, evaluating the effectiveness of two different advertising strategies: traditional ads (`ad`) and public service announcements or no ads (`psa`). The analysis encompasses data exploration, visualization, cross-tabulation, and statistical testing to derive insights about the impact of each strategy on user conversion rates.
+This project conducts a thorough analysis of a marketing A/B test dataset, evaluating the effectiveness of two different advertising strategies: traditional ads `ad` and public service announcements or no ads `psa`. The analysis encompasses data exploration, visualization, cross-tabulation, and statistical testing to derive insights about the impact of each strategy on user conversion rates.
 
 # About Dataset
 

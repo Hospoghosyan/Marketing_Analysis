@@ -70,21 +70,21 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
   - Created a crosstab to analyze conversion rates within the `ad` and `psa` groups.
   - Employed styling to highlight significant differences.
 
-  ![Conversion Crosstab]![image](https://github.com/user-attachments/assets/08330228-2b54-496e-8637-1034a75507c3)
+  [image](https://github.com/user-attachments/assets/08330228-2b54-496e-8637-1034a75507c3)
 
 
 - **Conversion Rates by Day of the Week:**
   - Created and styled crosstabs to compare conversion rates across different days of the week for the `ad` group.
   - Applied the Chi-Square test to assess the independence of conversion rates and specific days.
 
-  ![Day Conversion Crosstab]![image](https://github.com/user-attachments/assets/60e73969-fadd-4b6d-986e-8a865e3b3fde)
+  [image](https://github.com/user-attachments/assets/60e73969-fadd-4b6d-986e-8a865e3b3fde)
 
 
 - **Conversion Rates by Hour of the Day:**
   - Analyzed conversion rates across different hours of the day using crosstabulations.
   - Sorted and styled the results to identify peak hours for ad effectiveness.
 
-  ![Hour Conversion Crosstab]![image](https://github.com/user-attachments/assets/c9ed3bbb-e6a5-4486-a891-6402484587a0)
+  [image](https://github.com/user-attachments/assets/c9ed3bbb-e6a5-4486-a891-6402484587a0)
 
 
 ### 4. Statistical Testing
@@ -92,7 +92,7 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
   - **Objective:** Conducted a two-proportion Z-test to determine if the difference in conversion rates between the `ad` and `psa` groups is statistically significant.
   - **Result:** Identified a significant difference, suggesting that the `ad` group outperforms the `psa` group in conversion rates.
 
-  ![Z-Test Results]![image](https://github.com/user-attachments/assets/6b205185-0aa6-4d30-bfbe-d32e0a8cb739)
+    ![image](https://github.com/user-attachments/assets/6b205185-0aa6-4d30-bfbe-d32e0a8cb739)
 
 
 - **Chi-Square Test for Independence:**
@@ -108,7 +108,7 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
   - **Objective:** Calculated Cohen's d to measure the magnitude of the difference in conversion rates between the `ad` and `psa` groups.
   - **Result:** Provided a quantitative measure of the effect size, indicating how much the `ad` strategy influences conversion rates.
 
-  ![Effect Size]![image](https://github.com/user-attachments/assets/f5bd233c-386a-4a0c-9c73-32f870bff2ec)
+    ![image](https://github.com/user-attachments/assets/f5bd233c-386a-4a0c-9c73-32f870bff2ec)
 
 
 ### 5. Detailed Analysis
@@ -116,14 +116,29 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
   - **Objective:** Generated detailed crosstabs and p-value matrices to explore relationships between conversion rates and specific days within the `ad` group.
   - **Focus Areas:** Emphasized weekdays vs. weekends, with a special focus on particular days like Monday and Tuesday.
 
-  ![P-Value Matrix]![image](https://github.com/user-attachments/assets/99b234e3-a8ad-4f19-92bf-39337667573a)
+    ![image](https://github.com/user-attachments/assets/99b234e3-a8ad-4f19-92bf-39337667573a)
 
 
 - **Hourly Ad Analysis:**
   - **Objective:** Evaluated the effectiveness of ad displays by hour of the day using crosstabs and statistical testing.
   - **Key Findings:** Identified peak hours that maximize conversion rates, providing insights for optimizing ad schedules.
 
-  ![Hourly Ad Analysis]![image](https://github.com/user-attachments/assets/c8d5682a-69cc-4491-9b68-c86b4c32fa89)
+    ![image](https://github.com/user-attachments/assets/c8d5682a-69cc-4491-9b68-c86b4c32fa89)
+
+- **Shapiro-Wilk Test for Normality**
+  - **Objective:** To determine if the distributions of users who saw ads and made purchases, and those who saw ads but did not make purchases, were normally distributed.
+  - **Process:** Conducted the Shapiro-Wilk test for both groups.
+  - **Result:** Both groups were found to be non-normally distributed, as indicated by the test results. This non-normality was further confirmed through visual inspection of the distribution plots.
+
+    ![image](https://github.com/user-attachments/assets/5c398f96-e382-4252-a53e-1639e908e303)
+
+
+- **Mann-Whitney U Test**
+  - **Objective:** Given the non-normal distribution, a Mann-Whitney U test was conducted to assess whether the number of ads viewed had a significant impact on conversion rates.
+  - **Result:** The test revealed that the number of ads viewed significantly influences conversion rates.
+
+    ![image](https://github.com/user-attachments/assets/2590e55e-2411-4fd7-a0f0-a6392dc7ba62)
+
 
 
 ## Conclusion

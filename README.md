@@ -70,21 +70,21 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
   - Created a crosstab to analyze conversion rates within the `ad` and `psa` groups.
   - Employed styling to highlight significant differences.
 
-  [image](https://github.com/user-attachments/assets/08330228-2b54-496e-8637-1034a75507c3)
+  ![image](https://github.com/user-attachments/assets/9eefe7e2-65eb-4ef1-83f2-7ac588c02da4)
 
 
 - **Conversion Rates by Day of the Week:**
   - Created and styled crosstabs to compare conversion rates across different days of the week for the `ad` group.
   - Applied the Chi-Square test to assess the independence of conversion rates and specific days.
 
-  [image](https://github.com/user-attachments/assets/60e73969-fadd-4b6d-986e-8a865e3b3fde)
+  ![image](https://github.com/user-attachments/assets/60e73969-fadd-4b6d-986e-8a865e3b3fde)
 
 
 - **Conversion Rates by Hour of the Day:**
   - Analyzed conversion rates across different hours of the day using crosstabulations.
   - Sorted and styled the results to identify peak hours for ad effectiveness.
 
-  [image](https://github.com/user-attachments/assets/c9ed3bbb-e6a5-4486-a891-6402484587a0)
+  ![image](https://github.com/user-attachments/assets/c9ed3bbb-e6a5-4486-a891-6402484587a0)
 
 
 ### 4. Statistical Testing

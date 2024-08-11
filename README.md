@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project conducts a thorough analysis of a marketing A/B test dataset, evaluating the effectiveness of two different advertising strategies: traditional ads `ad` and public service announcements or no ads `psa`. The analysis encompasses data exploration, visualization, cross-tabulation, and statistical testing to derive insights about the impact of each strategy on user conversion rates.
+This project conducts a thorough analysis of a marketing dataset, evaluating the effectiveness of two different advertising strategies: traditional ads `ad` and public service announcements or no ads `psa`. The analysis encompasses data exploration, visualization, cross-tabulation, and statistical testing to derive insights about the impact of each strategy on user conversion rates.
 
 ## About Dataset
 
@@ -31,7 +31,8 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 
 - **Assess the impact** of `ad` and `psa` on user conversion rates.
 - **Identify user behavior patterns** based on different advertising strategies.
-- **Evaluate the statistical significance** of differences observed between the `ad` and `psa` groups.
+- **Evaluate the statistical significance** of differences in characteristics and observations between the `ad` and `psa` groups, considering factors such as day of the week, hour of the day, and number of ads viewed.
+
 
 ## Project Structure
 
@@ -112,9 +113,10 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 ### 5. Detailed Analysis
 - **Crosstabs and P-Value Matrices:**
   - **Objective:** Generated detailed crosstabs and p-value matrices to explore relationships between conversion rates and specific days within the `ad` group.
-  - **Focus Areas:** Emphasized weekdays vs. weekends, with a special focus on particular days like Monday and Tuesday.
+  - **Focus Areas:** Emphasize the percentage loss on weekdays, weekends, and all days compared to specific days, such as Monday and Tuesday.
 
     ![image](https://github.com/user-attachments/assets/99b234e3-a8ad-4f19-92bf-39337667573a)
+    ![image](https://github.com/user-attachments/assets/a7cfb0a6-21b3-4fe5-845e-b125ef66f886)
 
 
 - **Hourly Ad Analysis:**

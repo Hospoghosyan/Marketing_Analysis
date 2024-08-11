@@ -141,8 +141,8 @@ The idea of the dataset is to analyze the groups, find if the ads were successfu
 
 
 
-## Conclusion
-The analysis provides actionable insights into the effectiveness of traditional ads compared to public service announcements. Key findings suggest that optimizing ad exposure by time of day and specific days of the week could significantly enhance conversion rates.
+# Conclusion
+## The analysis provides actionable insights into the effectiveness of traditional ads compared to public service announcements. Key findings suggest that optimizing ad exposure by time of day and specific days of the week could significantly enhance conversion rates.
 
-Based on the analysis, I would recommend focusing ad displays on Mondays and Tuesdays, particularly during the time slots of 14:00 to 17:00 and 20:00 to 21:00. Additionally, the optimal number of ads to show should be between 64 and 103, as this range has been shown to maximize conversion rates.
+## Based on the analysis, I would recommend focusing ad displays on Mondays and Tuesdays, particularly during the time slots of 14:00 to 17:00 and 20:00 to 21:00. Additionally, the optimal number of ads to show should be between 64 and 103, as this range has been shown to maximize conversion rates.
 
